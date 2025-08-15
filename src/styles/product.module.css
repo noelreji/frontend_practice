@@ -1,0 +1,42 @@
+.container{
+
+
+    header{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        gap: 15px;
+        height: 50px;
+
+        #restrictions{
+            justify-self: center;
+            font-size: 13px;
+        }
+
+        #span2{
+            padding-left: 15px;
+            border-top: none;  /* Remove top border */
+            border-left: 0.5px solid grey;  /* Remove left border */
+            border-right: none; /* Remove right border */
+            border-bottom:   none;
+        }
+
+    }
+
+
+    header span {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 10px;
+     
+    }
+
+    header svg {
+        color: red;
+    }
+}

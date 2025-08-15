@@ -1,0 +1,136 @@
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    border-top: none;  /* Remove top border */
+    border-left: none;  /* Remove left border */
+    border-right: none; /* Remove right border */
+    border-bottom:  0.5px solid #D3D3D3; 
+
+    span{
+        display: flex;
+        gap: 10px;
+
+        &:hover button b , &:hover svg{
+            color: red ;
+        }
+    }
+
+    button {
+        background: none;
+        border: none;
+    }
+
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    border-top: none;  /* Remove top border */
+    border-left: none;  /* Remove left border */
+    border-right: none; /* Remove right border */
+    border-bottom:  0.5px solid #D3D3D3; 
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.logoContainer{
+
+    padding: 12px;
+    background-color: red;
+}
+
+.logo{
+    width: 80px;
+    position: relative;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 15px;
+    border-top: none; 
+    border-left: none;  
+    border-right: none; 
+    border-bottom:  1px solid black; 
+    padding-bottom: 5px;
+
+
+    .searchIcon{
+        width: 20px;
+    }
+
+    input{
+        border: none;
+        outline: none;
+    }
+
+    p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .s1:hover{
+        
+        cursor: pointer;
+    }
+}
+
+.section2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    right: 30px;
+
+    span{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+
+        p{
+            font-size: 14px;
+            font-weight: bold;
+            color: #555152;
+        }
+    }
+}
+
+
+.smallDeviceView{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    right: 20px;
+}
+
